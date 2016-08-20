@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+
+
+<h1>Trivia!</h1>
+
+
+<h2 id="timerSlot">You Have 30 Seconds to Answer 10 Questions</h2>
+
+<div id=q1> 1 </div>
+<div id=a1><div class="radio">
+  <label><input type="radio" name="optradio" value="yes">Option 1</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio" >Option 2</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Option 3</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Option 4</label>
+</div>
+ </div>
+<div id=q2> 2</div>
+<div id=a2><div class="radio">
+  <label><input type="radio" name="optradio">Option 1</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio" >Option 2</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Option 3</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Option 4</label>
+</div> </div>
+<div id=q3> 3</div>
+<div id=a3><div class="radio">
+  <label><input type="radio" name="optradio">Option 1</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio" >Option 2</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Option 3</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Option 4</label>
+</div> </div>
+<div id=q4> 4</div>
+<div id=a4> <div class="radio">
+  <label><input type="radio" name="optradio">Option 1</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio" >Option 2</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Option 3</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Option 4</label>
+</div></div>
+<div id=q5> 5</div>
+<div id=a5><div class="radio">
+  <label><input type="radio" name="optradio">Option 1</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio" >Option 2</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Option 3</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Option 4</label>
+</div> </div>
+<div id=q6> 6</div>
+<div id=a6> <div class="radio">
+  <label><input type="radio" name="optradio">Option 1</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio" >Option 2</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Option 3</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Option 4</label>
+</div></div>
+<div id=q7> 7</div>
+<div id=a7> <div class="radio">
+  <label><input type="radio" name="optradio">Option 1</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio" >Option 2</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Option 3</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Option 4</label>
+</div></div>
+<div id=q8> 8</div>
+<div id=a8><div class="radio">
+  <label><input type="radio" name="optradio">Option 1</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio" >Option 2</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Option 3</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Option 4</label>
+</div> </div>
+<div id=q9> 9</div>
+<div id=a9><div class="radio">
+  <label><input type="radio" name="optradio">Option 1</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio" >Option 2</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Option 3</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Option 4</label>
+</div> </div>
+<div id=q10> 10</div>
+<div id=a10><div class="radio">
+  <label><input type="radio" name="optradio">Option 1</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio" >Option 2</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Option 3</label>
+</div>
+<div class="radio">
+  <label><input type="radio" name="optradio">Option 4</label>
+</div> </div>
+
+
+<script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
+<script type="text/javascript">
+
+
+
+function timedText() {
+
+  setTimeout(timer0, 1000)
+    setTimeout(timer1, 2000)
+    setTimeout(timer2, 3000)
+    setTimeout(timer3, 4000)
+    setTimeout(timer4, 5000)
+    setTimeout(timer5, 6000)
+    setTimeout(timer6, 7000)
+    setTimeout(timer7, 8000)
+    setTimeout(timer8, 9000)
+    setTimeout(timer9, 10000)
+    setTimeout(timer10, 11000)
+    setTimeout(timer11, 12000)
+    setTimeout(timer12, 13000)
+    setTimeout(timer13, 14000)
+    setTimeout(timer14, 15000)
+    setTimeout(timer15, 16000)
+    setTimeout(timer16, 17000)
+    setTimeout(timer17, 18000)
+    setTimeout(timer18, 19000)
+    setTimeout(timer20, 20000)
+    setTimeout(timer20, 21000)
+    setTimeout(timer21, 22000)
+    setTimeout(timer22, 23000)
+    setTimeout(timer23, 24000)
+    setTimeout(timer24, 25000)
+    setTimeout(timer25, 26000)
+    setTimeout(timer26, 27000)
+    setTimeout(timer27, 28000)
+    setTimeout(timer28, 29000)
+    setTimeout(timer29, 30000)
+
+
+
+
+
+
+
+function timer0() {
+document.getElementById("timerSlot").innerHTML = "29 Seconds Remaining";
+
+
+}
+
+function timer1() {
+    document.getElementById("timerSlot").innerHTML = "28 Seconds Remaining";
+}
+function timer2() {
+    document.getElementById("timerSlot").innerHTML = "27 Seconds Remaining";
+}
+function timer3() {
+    document.getElementById("timerSlot").innerHTML = "26 Seconds Remaining";
+}
+function timer4() {
+    document.getElementById("timerSlot").innerHTML = "25 Seconds Remaining";
+}
+function timer5() {
+    document.getElementById("timerSlot").innerHTML = "24 Seconds Remaining";
+}
+function timer6() {
+    document.getElementById("timerSlot").innerHTML = "23 Seconds Remaining";
+}
+function timer7() {
+    document.getElementById("timerSlot").innerHTML = "22 Seconds Remaining";
+}
+function timer8() {
+    document.getElementById("timerSlot").innerHTML = "21 Seconds Remaining";
+}
+function timer9() {
+    document.getElementById("timerSlot").innerHTML = "20 Seconds Remaining";
+}
+function timer10() {
+    document.getElementById("timerSlot").innerHTML = "19 Seconds Remaining";
+}
+function timer11() {
+    document.getElementById("timerSlot").innerHTML = "18 Seconds Remaining";
+}
+function timer12() {
+    document.getElementById("timerSlot").innerHTML = "17 Seconds Remaining";
+}
+function timer13() {
+    document.getElementById("timerSlot").innerHTML = "16 Seconds Remaining";
+}
+function timer14() {
+    document.getElementById("timerSlot").innerHTML = "15 Seconds Remaining";
+}
+function timer15() {
+    document.getElementById("timerSlot").innerHTML = "14 Seconds Remaining";
+}
+function timer16() {
+    document.getElementById("timerSlot").innerHTML = "13 Seconds Remaining";
+}
+function timer17() {
+    document.getElementById("timerSlot").innerHTML = "12 Seconds Remaining";
+}
+function timer18() {
+    document.getElementById("timerSlot").innerHTML = "11 Seconds Remaining";
+}
+function timer19() {
+    document.getElementById("timerSlot").innerHTML = "10 Seconds Remaining";
+}
+function timer20() {
+    document.getElementById("timerSlot").innerHTML = "9 Seconds Remaining";
+}
+function timer21() {
+    document.getElementById("timerSlot").innerHTML = "8 Seconds Remaining";
+}
+function timer22() {
+    document.getElementById("timerSlot").innerHTML = "7 Seconds Remaining";
+}
+function timer23() {
+    document.getElementById("timerSlot").innerHTML = "6 Seconds Remaining";
+}
+function timer24() {
+    document.getElementById("timerSlot").innerHTML = "5 Seconds Remaining";
+}
+function timer25() {
+    document.getElementById("timerSlot").innerHTML = "4 Seconds Remaining";
+}
+function timer26() {
+    document.getElementById("timerSlot").innerHTML = "3 Seconds Remaining";
+}
+function timer27() {
+    document.getElementById("timerSlot").innerHTML = "2 Seconds Remaining";
+}
+function timer28() {
+    document.getElementById("timerSlot").innerHTML = "1 Seconds Remaining";
+}
+function timer29() {
+    document.getElementById("timerSlot").innerHTML = "Time's Up!";
+}
+
+
+
+
+};
+
+timedText();
+
+
+
+
+ 
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
